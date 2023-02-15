@@ -1,0 +1,405 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.attribution{
+    margin: 11px 0px 0px 0px;
+}
+
+.defaulttext{
+    max-width: 1440px;
+    width: 50vw;
+    margin: auto;
+}
+
+.imgbackground{
+    background-image: url('images/bg-header-desktop.png');
+    background-size:cover;
+    background-position:center;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+span{
+    width: 8rem;
+    height: 8rem;
+    border: 0.65rem solid #39b5a3;
+    color: #39b5a3;
+    font-size: 6em;
+    font-weight: 400;
+    padding: 0rem 1.6rem;
+    border-radius: 7rem;
+}
+
+
+.downloadbuttons{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.downloadbuttons button{
+cursor: pointer;
+}
+.downloadbuttons button:nth-child(1){
+    padding: 0.8rem 2rem; 
+    background-color: #27bda7;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 1.2rem;
+    border: none;
+    margin: 0rem 0.6rem;
+}
+
+.downloadbuttons button:nth-child(2){
+    padding: 0.8rem 2rem;
+    background-color: #6273ff;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 1.2rem;
+    border: none;
+    margin: 0rem 0.6rem;
+}
+
+.defaulttext{
+    text-align: center;
+}
+
+
+.defaulttext h1{
+    font-size: 2.8rem;
+    color:#495158;
+    font-weight: 400;
+}
+
+.defaulttext p{
+    font-size: 1.2rem;
+    color:#c8c8c8;
+    font-weight: 400;
+}
+
+.banner{
+    flex: 1;
+}
+
+.banner img{
+    position: relative;
+    right: 100px;
+}
+.informations{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+section.computer_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    margin: auto;
+}
+
+.information h3{
+    font-size: 2rem;
+    color:#495158;
+    margin: 0px;
+}
+
+.information p{
+    color: #c8c8c8;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 15px 0px 40px 0px;
+}
+
+section{
+    margin-bottom: 100px;
+    width: 100vw;
+}
+
+
+.workflowinfos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.workflowinfo{
+    display: flex;
+    align-items: center;
+    justify-content:stretch;
+    flex-direction: column;
+    flex: 1;
+    padding: 0px 20px;
+}
+
+.workflowimg img{
+    height: 45px;
+    width: auto;
+}
+
+.workflowinfo h1{
+    color:#495158;
+    font-size: 2rem;
+}
+
+.workflowinfo p{
+    color: #c8c8c8;
+    font-size:  1.2rem;
+}
+
+
+.tabletphoneimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.plataforms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 86vw;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.plataform{
+    text-align: center;
+
+}
+
+
+section:last-child{
+    margin-top: 120px;
+}
+
+
+footer{
+background-color: #edeef2;
+}
+.footer{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.logoimg{
+flex: 1;
+display: flex;
+align-items: flex-end;
+}
+
+.logoimg img{
+    width: 100px;
+    height: auto;
+}
+
+.socialmedia{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.socialmedia img{
+    width: 32px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+
+.footer ul{
+    color: #a1a1a1;
+    flex: 1;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.footer li{
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 10px 20px;
+}
+
+@media(min-width: 941px) and (max-width: 1080px){
+    .workflowinfo h1 {
+        font-size: 1.5rem;
+    }
+    .banner img{
+        width: 600px;
+    }
+}
+
+@media(min-width: 700px) and (max-width:940px){
+    .banner img{
+        width: 400px;
+    }
+    section .computer_info{
+        width: 90vw;
+    }
+
+    .defaulttext{
+        width: 60vw;
+    }
+    .tabletphoneimg img{
+        width: 768px;
+    }
+
+    .workflowinfo{
+        padding: 0px;
+    }
+    .workflowinfo h1{
+        font-size: 1.4rem;
+
+    }
+    .workflowinfo p{
+        font-size: 0.9rem;
+    }
+
+    .plataform img{
+        width: 100px;
+    }
+    .logoimg{
+        align-items: center;
+    }
+    .logoimg img{
+        width: 80px;
+    }
+
+    .footer ul{
+        grid-template-columns: 100px 100px 100px;
+    }
+    .footer li{
+        font-size: 0.8rem;
+    }
+
+    .socialmedia img{
+        width: 20px;
+    }
+}
+
+@media (max-width: 699px){
+    section{
+        margin-bottom: 30px;
+    }
+   section:first-child{
+    
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header section img {
+        width: 100px;
+    }
+
+    .defaulttext{
+        width: 90vw;
+    }
+    .defaulttext h1{
+    font-size: 2rem;
+    font-weight: 600;
+    }
+
+    .downloadbuttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 150px;
+        width: 100%;
+    }
+
+    .downloadbuttons button:nth-child(1){
+        padding: 1rem 5rem;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    }
+    .downloadbuttons button:nth-child(2){
+        padding: 1rem 5rem;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    }
+    section.computer_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .banner img{
+        right: 0px;
+        width: 90vw;
+    }
+
+    .informations{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+
+    .tabletphoneimg img{
+        width: 90vw;
+    }
+    .workflowinfos{
+        flex-direction: column;
+    }
+    .workflowinfo{
+        padding: 0px;
+    }
+
+    .plataforms{
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+}
+
+@media(min-width: 1805px){
+    section.computer_info{
+        justify-content: space-around;
+    }
+    .banner{
+        flex: 1;
+    }
+    .banner img{
+        right: 0px;
+    }
+    .informations{
+        flex: 1;
+        align-items: flex-end;
+    }
+    .information{
+        width: 600px;
+    }
+}
