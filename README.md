@@ -13,8 +13,8 @@ O site também possui disponibilidade para dispositivos movéis.
 # Linguagens utilizadas
 
 ## FrontEnd
--HTML
--CSS
+- HTML
+- CSS
 
 ## Website
 - https://mhalvesb.github.io/clipboardlandingpage/
