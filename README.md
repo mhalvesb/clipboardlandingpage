@@ -10,9 +10,9 @@ O site também possui disponibilidade para dispositivos movéis.
 É um desafio feito a partir do site FrontendMentor.
 
 
-#Linguagens utilizadas
+# Linguagens utilizadas
 
-##FrontEnd
+## FrontEnd
 -HTML
 -CSS
 
